@@ -39,6 +39,14 @@ body {
   text-align: center;
 }
 
+div {
+  display: block;
+}
+
+h2, h3, h4 {
+  padding: 10px;
+}
+
 a, a:visited {
   color: seashell;
 }
@@ -64,4 +72,40 @@ a:hover {
   margin: auto;
   width: 100%;
   background-color: black;
+}
+
+.tea {
+  padding: 5px;
+}
+
+.tea img {
+  display: block;
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+#locations {
+  background-image: url('../images/locations-background.jpg');
+  height: 500px;
+  padding-top: 70px;
+}
+
+.location {
+  background-color: black;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-basis: 280px;
+  padding: 10px;
+  margin: 5px 20px;
+}
+
+#locations .flexbox {
+  margin: auto;
+}
+
+.flexbox.locations {
+  padding-top: 5px;
 }
