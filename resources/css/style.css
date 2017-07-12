@@ -47,8 +47,21 @@ a:hover {
   color: dodgerblue;
 }
 
+.main {
+  width: 1200px;
+  padding-top: 69px;
+  opacity: 0.9;
+  margin: auto;
+}
+
 #mission {
   height: 700px;
   padding-top: 70px;
   background-image: url('../images/mission-background.jpg');
+}
+
+#mission .content {
+  margin: auto;
+  width: 100%;
+  background-color: black;
 }
